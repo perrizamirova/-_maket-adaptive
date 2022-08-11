@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  margin: 30px 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: none;
+}
+
+.logo img {
+  margin-top: 13px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 50px;
+  font-size: 16px;
+  color: #35414b;
+}
+.navbar {
+  display: flex;
+}
+
+.navbar div {
+  margin: 0 20px;
+}
+.btns {
+  margin-top: 20px;
+}
+.btn {
+  margin-left: 20px;
+  width: 170px;
+  height: 50px;
+  background-color: #ece5ff;
+  color: #794cff;
+  border: none;
+  border-radius: 5px;
+}
+/* <Блок 1, НАЧАЛО */
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.save {
+  font-size: 16px;
+  background-color: #81c43b;
+  border-radius: 30px;
+  width: 120px;
+  height: 32px;
+}
+.acc {
+  background-color: #f2f9eb;
+  margin-left: 5px;
+}
+.inp input {
+  width: 200px;
+  height: 30px;
+}
+.inp button {
+  width: 120px;
+  height: 30px;
+  background-color: #794cff;
+  color: white;
+}
+.manage {
+  width: 600px;
+  font-size: 55px;
+  text-align: center;
+}
+
+.paragraph {
+  width: 450px;
+  margin: 20px 0;
+  text-align: center;
+  color: #4e5a65;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+}
+
+.trust {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #f0ebfa;
+}
+
+.text1 {
+  border-left: 8px solid #794cff;
+  /* width: 350px; */
+  height: 70px;
+}
+.text1 p {
+  margin-left: 7px;
+}
+
+.text2 {
+  margin-top: 30px;
+  margin-left: 15px;
+  /* width: 350px; */
+  height: 70px;
+}
+.text3 {
+  margin-top: 30px;
+  margin-left: 15px;
+  /* width: 350px; */
+  height: 70px;
+}
+.text4 {
+  margin-top: 30px;
+  margin-left: 15px;
+  /* width: 350px; */
+  height: 70px;
+}
+#images {
+  width: 500px;
+  height: 400px;
+  top: 800px;
+  left: 100px;
+}
+.text1 h3 {
+  margin: 10px 10px;
+}
+/* БЛОК MAKE  */
+
+.make {
+  text-align: center;
+  color: #35414b;
+}
+.team {
+  font-weight: 600;
+  color: #35414b;
+}
+.short {
+  font-weight: 400;
+  width: 280px;
+  color: #4e5a65;
+}
+.collab {
+  font-weight: 600;
+  color: #35414b;
+}
+.build {
+  font-weight: 400;
+  width: 280px;
+  color: #4e5a65;
+}
+.learn {
+  font-weight: 600;
+  color: #35414b;
+}
+.quick {
+  font-weight: 400;
+  width: 280px;
+  color: #4e5a65;
+}
+
+.make-all {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 56px;
+}
+
+.anon {
+  font-weight: 600;
+  color: #35414b;
+}
+.develop {
+  font-weight: 400;
+  width: 280px;
+  color: #4e5a65;
+}
+
+.conver {
+  font-weight: 600;
+  color: #35414b;
+}
+.commun {
+  font-weight: 400;
+  width: 280px;
+  color: #4e5a65;
+}
+
+.exclus {
+  font-weight: 600;
+  color: #35414b;
+}
+.access {
+  font-weight: 400;
+  width: 280px;
+  color: #4e5a65;
+}
+
+.make-all2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 56px;
+}
+/* БЛОК WE WORK */
+.we-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #f0ebfa;
+}
+
+.we-work-1 {
+  margin-left: 40px;
+  padding-left: 40px;
+}
+
+.we-work {
+  margin-top: 70px;
+  width: 450px;
+}
+
+.work {
+  font-weight: 600;
+  font-size: 40px;
+  width: 340px;
+  height: 100px;
+}
+.since {
+  margin-top: 20px;
+  width: 415px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4e5a65;
+}
+
+.started {
+  margin-top: 10px;
+  width: 170px;
+  height: 50px;
+  background-color: #796eff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+/* БЛОК WHY CUSTOMERS */
+.why {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-cust {
+  margin-top: 70px;
+  width: 400px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+.amazing {
+  margin-top: 50px;
+  width: 540px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4e5a65;
+  text-align: center;
+}
+
+/* БЛОК Jorge, Francisco, Beth */
+.persons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.jorge {
+  display: flex;
+  border-top: 4px solid #35414b;
+  width: 264px;
+}
+.jorge > img,
+div {
+  margin-top: 28px;
+}
+.francisco {
+  display: flex;
+}
+.francisco > img,
+div {
+  margin-top: 32px;
+}
+.beth {
+  display: flex;
+}
+.beth > img,
+div {
+  margin-top: 32px;
+}
+.right {
+  margin-right: 16px;
+}
+
+/* БЛОК PLAY-APP */
+
+.play-app {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #796eff;
+  width: 1000px;
+  margin: 60px auto;
+  border-radius: 16px;
+}
+
+.play-app__column {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.play-app__column img:not(:last-child) {
+  margin-right: 15px;
+}
+
+.manager {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  width: 423px;
+  height: 96px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.play {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.app {
+  margin-top: 35px;
+}
+
+/* БЛОК FOOTER */
+
+.footer {
+  background-color: #1d2830;
+}
+
+.support {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+.support div {
+  display: flex;
+  flex-direction: column;
+}
+.support a {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 15px;
+}
+.install-app img {
+  margin-top: 20px;
+}
+hr {
+  border: 1px solid white;
+  opacity: 0.1;
+}
+.all {
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.all-span {
+  color: #d9dbe1;
+}
+.all-img img {
+  margin-right: 10px;
+}
+
+/* АДАПТИВКА */
+@media all and (max-width: 1095px) {
+  .we-all {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (max-width: 1065px) {
+  .navbar {
+    display: none;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: 16px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .play-app {
+    flex-direction: column;
+    width: 100%;
+  }
+  .manager {
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 925px) {
+  .img-overview {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media all and (max-width: 865px) {
+  .section-3 {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 860px) {
+  .make-all,
+  .make-all2 {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+@media all and (max-width: 800px) {
+  .all {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 680px) {
+  .we-work-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 570px) {
+  .manage {
+    font-size: 32px;
+    width: 250px;
+  }
+}
+
+@media all and (max-width: 535px) {
+  .amazing {
+    width: 240px;
+  }
+}
+
+@media all and (max-width: 524px) {
+  .inp input {
+    display: flex;
+    width: 150px;
+    text-align: center;
+  }
+  .inp button {
+    width: 150px;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #images {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media all and (max-width: 465px) {
+  .persons {
+    flex-wrap: wrap;
+  }
+  .logos {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 455px) {
+  .we-work {
+    width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work {
+    font-size: 20px;
+    width: 245px;
+  }
+  .since {
+    width: 250px;
+    height: 110px;
+  }
+  .we-work-1 {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .elements {
+    display: none;
+  }
+  .support {
+    flex-direction: column;
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .install-app img {
+    width: 180px;
+    height: 53px;
+  }
+}
+@media all and (max-width: 440px) {
+  .paragraph {
+    width: 200px;
+    margin: 0px;
+  }
+  .play-app__column {
+    flex-direction: column;
+  }
+  .play {
+    margin-left: 13px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .logo img {
+    margin-top: 13px;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+  }
+}
+
+@media all and (max-width: 396px) {
+  .section-save {
+    width: 200px;
+  }
+}
+@media all and (max-width: 395px) {
+  .jorge {
+    width: 200px;
+  }
+}
+@media all and (max-width: 355px) {
+  .why-cust {
+    width: 245px;
+    font-size: 20px;
+  }
+  .text-right {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 346px) {
+  .trust {
+    text-align: center;
+  }
+}
